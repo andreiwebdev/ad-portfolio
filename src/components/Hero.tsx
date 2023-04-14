@@ -1,6 +1,7 @@
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { HiOutlineMail } from "react-icons/hi";
+import Resume from "../assets/AndreiResume.pdf";
 
 function Hero() {
     return (
@@ -48,7 +49,7 @@ function Hero() {
                         <HiOutlineMail size={25} />
                     </a>
                     <a
-                        href="/files/AndreiResume.pdf"
+                        href={Resume}
                         download
                         className="bg-[#3742fa] p-2 flex flex-col items-center justify-center rounded-full mr-3 cursor-pointer"
                     >

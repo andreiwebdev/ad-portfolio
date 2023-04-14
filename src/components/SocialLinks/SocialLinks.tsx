@@ -1,6 +1,7 @@
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { HiOutlineMail } from "react-icons/hi";
+import Resume from "../../assets/AndreiResume.pdf";
 
 const SocialLinks = () => {
     return (
@@ -36,7 +37,7 @@ const SocialLinks = () => {
                 <li className="w-[168px] h-[60px] flex justify-between items-center ml-[-110px] hover:ml-[0px] duration-300 bg-[#565f69]">
                     <a
                         className="flex justify-between items-center w-full text-gray-300"
-                        href="/files/AndreiResume.pdf"
+                        href={Resume}
                         download
                     >
                         Resume <BsFillPersonLinesFill size={30} />

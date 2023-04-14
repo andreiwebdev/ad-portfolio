@@ -61,7 +61,7 @@ function Skills() {
                     </p>
                 </div>
 
-                <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8">
+                <div className="w-full grid grid-cols-3 sm:grid-cols-4 gap-4 text-center py-8">
                     {skills.map((item) => {
                         return (
                             <div
