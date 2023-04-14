@@ -1,3 +1,7 @@
+import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { BsFillPersonLinesFill } from "react-icons/bs";
+import { HiOutlineMail } from "react-icons/hi";
+
 function Hero() {
     return (
         <div className="w-full h-screen">
@@ -22,6 +26,35 @@ function Hero() {
                     digital goals. Let's work together to build exceptional web
                     solutions!
                 </p>
+                <div className="flex lg:hidden text-white">
+                    <a
+                        href="https://www.linkedin.com/in/andrei-dragomir-433584193/"
+                        target="_blank"
+                        className="bg-[#3742fa] p-2 flex flex-col items-center justify-center rounded-full mr-3 cursor-pointer"
+                    >
+                        <FaLinkedin size={25} />
+                    </a>
+                    <a
+                        href="https://github.com/andreiwebdev"
+                        target="_blank"
+                        className="bg-[#3742fa] p-2 flex flex-col items-center justify-center rounded-full mr-3 cursor-pointer"
+                    >
+                        <FaGithub size={25} />
+                    </a>
+                    <a
+                        href="mailto:dandrei.web@gmail.com"
+                        className="bg-[#3742fa] p-2 flex flex-col items-center justify-center rounded-full mr-3 cursor-pointer"
+                    >
+                        <HiOutlineMail size={25} />
+                    </a>
+                    <a
+                        href="/files/AndreiResume.pdf"
+                        download
+                        className="bg-[#3742fa] p-2 flex flex-col items-center justify-center rounded-full mr-3 cursor-pointer"
+                    >
+                        <BsFillPersonLinesFill size={25} />
+                    </a>
+                </div>
             </div>
         </div>
     );

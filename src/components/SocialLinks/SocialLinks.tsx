@@ -4,7 +4,7 @@ import { HiOutlineMail } from "react-icons/hi";
 
 const SocialLinks = () => {
     return (
-        <div className="hidden sm:flex fixed flex-col top-[35%] left-0">
+        <div className="hidden lg:flex fixed flex-col top-[35%] left-0">
             {/* Social icons */}
             <ul>
                 <li className="w-[168px] h-[60px] flex justify-between items-center ml-[-110px] hover:ml-[0px] duration-300 bg-blue-600">

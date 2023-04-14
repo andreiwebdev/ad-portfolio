@@ -8,7 +8,7 @@ const WorkImage: React.FC<WorkImageProps> = (props) => {
     return (
         <div
             onClick={() => props.setModalOpen(true)}
-            className="container flex justify-center items-center mx-auto content-div"
+            className="container flex justify-center items-center mx-auto content-div hover:scale-110 duration-500"
         >
             <a href={props.link} target="_blank">
                 <img
