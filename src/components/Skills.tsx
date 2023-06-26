@@ -56,7 +56,7 @@ function Skills() {
         <div className="w-full h-screen text-white">
             <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
                 <div className="pb-16 text-center">
-                    <p className="text-4xl font-bold inline border-b-4 border-[#3742fa]">
+                    <p className="text-4xl font-bold inline border-b-4 border-[#4286f4]">
                         Skills
                     </p>
                 </div>

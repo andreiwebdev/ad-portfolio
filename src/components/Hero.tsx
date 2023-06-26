@@ -8,7 +8,7 @@ function Hero() {
         <div className="w-full h-screen">
             {/* Container */}
             <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full">
-                <p className="text-[#3742fa] font-bold">Hi, my name is</p>
+                <p className="text-[#4286f4] font-bold">Hi, my name is</p>
                 <h1 className="text-4xl sm:text-7xl font-bold text-[#ccd6f6]">
                     Andrei Dragomir
                 </h1>

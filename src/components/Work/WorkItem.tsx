@@ -7,8 +7,8 @@ interface WorkItemProps {
 
 const WorkItem: React.FC<WorkItemProps> = ({ setModalOpen, text }) => {
     return (
-        <Overlay extraClasses="absolute top-0 flex flex-col justify-center items-center py-10 px-10">
-            <div className="bg-white w-full max-w-lg h-full rounded-xl shadow-xl shadow-gray-900 work-item">
+        <Overlay extraClasses="absolute top-0 flex flex-col justify-center items-center py-10 px-10 w-full">
+            <div className="bg-white w-full h-full rounded-xl shadow-xl shadow-gray-900 work-item">
                 <div
                     onClick={() => setModalOpen(false)}
                     className="bg-[#dcdde1] w-full h-10 rounded-tr-xl rounded-tl-xl relative"

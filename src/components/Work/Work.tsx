@@ -1,12 +1,15 @@
 import React, { useState } from "react";
 import WorkImage from "./WorkImage";
 import WorkItem from "./WorkItem";
+
+// images
 import Image1 from "../../assets/work/Group 1.png";
 import Image2 from "../../assets/work/Group 2.png";
 import Image3 from "../../assets/work/Group 3.png";
 import Image4 from "../../assets/work/Group 4.png";
 import Image5 from "../../assets/work/Group 5.png";
 import Image6 from "../../assets/work/Group 6.png";
+import { Link } from "react-router-dom";
 
 const Work = () => {
     const [modalOpen, setModalOpen] = useState(false);
@@ -60,12 +63,12 @@ const Work = () => {
         <div id="Work" className="w-full md:h-screen text-gray-300">
             <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
                 <div className="pb-16 text-center">
-                    <p className="text-4xl font-bold inline border-b-4 border-[#3742fa]">
+                    <p className="text-4xl font-bold inline border-b-4 border-[#4286f4]">
                         Projects
                     </p>
                 </div>
 
-                <div className="grid grid-cols-2 lg:grid-cols-3 gap-4">
+                <div className="grid grid-cols-2 sm:grid-cols-3 gap-4 mb-12">
                     {projectsImg.map((item) => {
                         return (
                             <WorkImage
@@ -77,6 +80,13 @@ const Work = () => {
                         );
                     })}
                 </div>
+
+                <Link
+                    to="/projects"
+                    className="bg-[#4286f4] max-w-fit mx-auto py-2 px-8 rounded cursor-pointer md:text-lg lg:text-xl text-white"
+                >
+                    All Projects
+                </Link>
             </div>
 
             {/* {modalOpen && <WorkItem text={txt} setModalOpen={setModalOpen} />} */}
